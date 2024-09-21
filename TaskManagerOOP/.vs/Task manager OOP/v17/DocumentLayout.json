@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|c:\\users\\ibrah\\source\\repos\\task manager oop\\task manager oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|solutionrelative:task manager oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|c:\\users\\ibrah\\source\\repos\\task manager oop\\task manager oop\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|solutionrelative:task manager oop\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|c:\\users\\ibrah\\source\\repos\\task manager oop\\task manager oop\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D89C16-1251-4C6D-A446-A42B7307D77C}|Task manager OOP\\Task manager OOP.csproj|solutionrelative:task manager oop\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\Program.cs",
+              "RelativeDocumentMoniker": "Task manager OOP\\Program.cs",
+              "ToolTip": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\Program.cs",
+              "RelativeToolTip": "Task manager OOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:57:55.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\Task.cs",
+              "RelativeDocumentMoniker": "Task manager OOP\\Task.cs",
+              "ToolTip": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\Task.cs",
+              "RelativeToolTip": "Task manager OOP\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:13:11.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\TaskManager.cs",
+              "RelativeDocumentMoniker": "Task manager OOP\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\Ibrah\\source\\repos\\Task manager OOP\\Task manager OOP\\TaskManager.cs",
+              "RelativeToolTip": "Task manager OOP\\TaskManager.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswJgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:47:51.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

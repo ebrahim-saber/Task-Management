@@ -1,0 +1,14 @@
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.AssemblyInfoInputs.cache
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.AssemblyInfo.cs
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.csproj.CoreCompileInputs.cache
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\bin\Debug\net8.0\Task manager OOP.exe
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\bin\Debug\net8.0\Task manager OOP.deps.json
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\bin\Debug\net8.0\Task manager OOP.runtimeconfig.json
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\bin\Debug\net8.0\Task manager OOP.dll
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\bin\Debug\net8.0\Task manager OOP.pdb
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.dll
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\refint\Task manager OOP.dll
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.pdb
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\Task manager OOP.genruntimeconfig.cache
+C:\Users\Ibrah\source\repos\Task manager OOP\Task manager OOP\obj\Debug\net8.0\ref\Task manager OOP.dll
