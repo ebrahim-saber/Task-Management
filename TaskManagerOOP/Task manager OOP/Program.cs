@@ -5,7 +5,7 @@ internal class Program
     private static void Main(string[] args)
     {
         TaskManager taskManager = new TaskManager();
-       // taskManager.LoadTasksFromFile();
+        taskManager.LoadTasksFromFile();
         taskManager.ShowMenu();
     }
 }
