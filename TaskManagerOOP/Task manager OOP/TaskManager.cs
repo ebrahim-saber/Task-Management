@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -90,7 +90,7 @@ namespace Task_manager_OOP
         public void MarkTaskAsCompleted()
         {
             Console.Clear();
-            ViewTasks();
+            ViewTasksAddition(tasks);
             Console.Write("Enter the task number to mark as completed: ");
             if (int.TryParse(Console.ReadLine(), out int taskNumber) && taskNumber <= tasks.Count)
             {
@@ -107,7 +107,7 @@ namespace Task_manager_OOP
         public void DeleteTask()
         {
             Console.Clear();
-            ViewTasks();
+            ViewTasksAddition(tasks);
             Console.Write("Enter the task number to delete: ");
             if (int.TryParse(Console.ReadLine(), out int taskNumber) && taskNumber <= tasks.Count)
             {
@@ -132,25 +132,80 @@ namespace Task_manager_OOP
             }
         }
 
-        public void LoadTasksFromFile()
-        {
-           if (File.Exists("tasks.txt"))
-            {
-                string[] lines = File.ReadAllLines("tasks.txt");
-                foreach (string line in lines)
-                {
-                    string[] parts = line.Split('|');
-                    Task task = new Task(parts[0], parts[1])
-                    {
-                        IsCompleted = bool.Parse(parts[2])
-                    };
-                    Task task = new Task(parts[0], parts[1]);
-                    task.IsCompleted = bool.Parse(parts[2]);
 
-                    tasks.Add(task);
+        public void LoadTasksFromFileSafe()
+        {
+            if (File.Exists("tasks.txt"))
+            {
+                Console.WriteLine("Loading tasks from file...");
+
+                try
+                {
+                    string[] lines = File.ReadAllLines("tasks.txt");
+
+                    if (lines.Length == 0)
+                    {
+                        Console.WriteLine("No tasks found in the file.");
+                        return;
+                    }
+
+                    foreach (string line in lines)
+                    {
+                        string[] parts = line.Split('|');
+
+                        if (parts.Length == 3)
+                        {
+                            string title = parts[0].Trim();
+                            string description = parts[1].Trim();
+                            bool isCompleted;
+
+                            if (bool.TryParse(parts[2].Trim(), out isCompleted))
+                            {
+                                Task task = new Task(title, description)
+                                {
+                                    IsCompleted = isCompleted
+                                };
+                                tasks.Add(task);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Invalid completion status for task: {line}. Skipping...");
+                            }
+                        }
+                        else
+                        {
+                            
+                            Console.WriteLine($"Invalid task format. Skipping line: {line}");
+                        }
+                    }
+
+                    Console.WriteLine($"Loaded {tasks.Count} tasks from the file.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"An error occurred while loading tasks: {ex.Message}");
                 }
             }
+            else
+            {
+                Console.WriteLine("Task file not found. No tasks loaded.");
+            }
+
+            Console.WriteLine("\nPress Enter to Continue...");
+            Console.ReadLine();
         }
+
+
+        static void ViewTasksAddition(List<Task> tasks)
+        {
+            Console.Clear();
+            Console.WriteLine("\nTasks:");
+            for (int i = 0; i < tasks.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {tasks[i]}");
+            }
+        }
+        
 
     }
 }
