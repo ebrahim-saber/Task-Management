@@ -127,30 +127,30 @@ namespace Task_manager_OOP
             {
                 foreach (Task task in tasks)
                 {
-                    sw.WriteLine($"{task.Title} - {task.Description} - {task.IsCompleted}");
+                    sw.WriteLine($"{task.Title}|{task.Description}|{task.IsCompleted}");
                 }
             }
         }
 
-        //public void LoadTasksFromFile()
-        //{
-        //    if (File.Exists("tasks.txt"))
-        //    {
-        //        string[] lines = File.ReadAllLines("tasks.txt");
-        //        foreach (string line in lines)
-        //        {
-        //            string[] parts = line.Split('|');
-        //            Task task = new Task(parts[0], parts[1])
-        //            {
-        //                IsCompleted = bool.Parse(parts[2])
-        //            };
-        //            //Task task = new Task(parts[0], parts[1]);
-        //            //task.IsCompleted = bool.Parse(parts[2]);
+        public void LoadTasksFromFile()
+        {
+           if (File.Exists("tasks.txt"))
+            {
+                string[] lines = File.ReadAllLines("tasks.txt");
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split('|');
+                    Task task = new Task(parts[0], parts[1])
+                    {
+                        IsCompleted = bool.Parse(parts[2])
+                    };
+                    Task task = new Task(parts[0], parts[1]);
+                    task.IsCompleted = bool.Parse(parts[2]);
 
-        //            tasks.Add(task);
-        //        }
-        //    }
-        //}
+                    tasks.Add(task);
+                }
+            }
+        }
 
     }
 }
